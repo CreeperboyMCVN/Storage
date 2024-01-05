@@ -1,0 +1,10 @@
+main: com.creeperboymcvn.storage.Storage
+name: Storage
+version: 1.0-SNAPSHOT
+description: Store ores in virtual storage
+author: CreeperboyMCVN
+api-version: 1.13
+depends: [Vault]
+commands:
+    kho:
+        aliases: [storage]

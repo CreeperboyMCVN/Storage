@@ -1,0 +1,64 @@
+items:
+    - COBBLESTONE
+    - IRON_ORE
+    - COAL
+    - GOLD_ORE
+    - ANCIENT_DEBRIS
+    
+defaultSpace: 10000
+
+message:
+    noPerm: '&#ff0000Bạn không có quyền!'
+    reloaded: '&#00ff00Đã tải lại plugin!'
+    noConsole: '&cKhông thể dùng lệnh này từ CONSOLE!'
+    setMaxUsage: '&cCách dùng: /storage setmax <số lượng> [người chơi]'
+    setMax: '&aĐã thành công đặt dung lượng tối đa thành %amount%'
+    setMaxTarget: '&aĐã thành công đặt dung lượng tối đa cho %target% thành %amount%'
+    invalidPlayer: '&cNgười chơi không tồn tại!'
+    invalidArg: '&cĐối số không hợp lệ!'
+    toggle: '&aĐã chuyển đổi sử dụng kho thành %state%'
+    full: '&cKho đã đầy!'
+    notify: '&a+%type%&r &7x&f%amount% &7(&a%current%&7/&c%max%&7)'
+    help: "&7----------&a &lCREEPER'S STORAGE &7----------\n
+    &6/storage&7 Mở kho\n
+    &6/storage&a sell&7 Mở giao diện bán vật phẩm\n
+    &6/storage&a toggle&7 Chuyển đổi dùng kho hoặc nhặt bình thường\n
+    &6/storage&a setmax <số lượng> [tên người chơi]&7 Chỉnh dung lượng kho cho người chơi\n
+    &6/storage&a reload&7 Tải lại plugin\n
+    &6/storage&a help&7 Vậy chứ cái tin nhắn này là cái gì?"
+    gui:
+        title: 'Kho của %player% (%current%/%max%)'
+        sellTitle: 'Cửa hàng bán vật phẩm'
+        name: '%type%'
+        lore: 
+        - '&3Hiện trong kho có: &a%amount%'
+        - ''
+        - '&aC.trái&7 để lấy 1'
+        - '&aC.phải&7 để lấy 16'
+        - '&aShift trái&7 để lấy 64'
+        - '&aShift phải&7 để làm đầy kho'
+        sellLore: 
+        - '&3Giá bán lẻ hiện tại: &a%price%'
+        - '&3Hiện trong kho còn: &a%amount%'
+        - ''
+        - '&aC.trái&7 để bán 1'
+        - '&aC.phải&7 để bán 16'
+        - '&aShift trái&7 để bán 64'
+        - '&aShift phải&7 để bán hết'
+    notEnoughItem: '&cBạn không có đủ vật phẩm!'
+    gotItem: '&aĐã rút %type%&a x%amount% từ kho!'
+    soldItem: '&aĐã bán %type%&a x%amount% với giá $%price%!'
+itemName:
+    COBBLESTONE: '&7Đá cuội'
+    IRON_ORE: '&bQuặng sắt'
+    COAL: '&0Than'
+    GOLD_ORE: '&eQuặng vàng'
+    ANCIENT_DEBRIS: '&8Mảnh vỡ cổ đại'
+    
+price:
+    COBBLESTONE: 1
+    IRON_ORE: 3
+    COAL: 2
+    GOLD_ORE: 3
+    ANCIENT_DEBRIS: 10
+    
